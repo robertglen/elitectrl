@@ -27,6 +27,7 @@ args = parser.parse_args()
 def sendCmd(cmd):
   try:
     eliteIP = socket.gethostbyname(args.host)
+    # Comment here for git
   except socket.gaierror:
     sys.stderr.write('DNS failure: cannot resolve ' + args.host + '\n')
     sys.exit(1)
