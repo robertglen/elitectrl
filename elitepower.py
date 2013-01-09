@@ -60,7 +60,7 @@ def main():
   else:
     cmd = 'POWR0   \r'
 
-  # Call the sendCmd function with the cmd
+  # Call the sendCmd function with the 8 character ASCII
   sendCmd(cmd)
 
 # Call main function
